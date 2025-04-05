@@ -1,127 +1,130 @@
 <?xml version="1.0" ?>
-<!-- 1) The root element name is Hotel instead of Hotels-->
+<!-- (1) The root element name is Hotel, instead of Hotels. -->
 <Hotel>
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
-		<!-- 5) Two names are provided for one of the hotels-->
-		<Name>Westin Duplicate Name</Name>
+		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
-		<!-- 2) A required attribute is missing-->
-		<Address>
+		<Address NearestAirport="JFK International">
 			<Number>11</Number>
 			<Street>E.7th St</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
+			<City>New York</City>
+			<State>NY</State>
 			<Zip>85281</Zip>
-			<!-- 4) An Address elect has no closing tag.-->
+		</Address>
+	</Hotel>
 	<Hotel Rating="4.5">
-		<Name>Hyatt Regency Phoenix</Name>
-		<!-- 3) A Phone element is missing on one of the hotels-->
-		<Address NearestAirport="Sky Harbor">
+		<Name>Hyatt Regency</Name>
+		<Phone>602-252-1234</Phone>
+		<!-- (2) A required attribute is missing; -->
+		<Address>
 			<Number>122</Number>
 			<Street>N 2nd St</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
+			<City>Los Angeles</City>
+			<State>CA</State>
 			<Zip>85004</Zip>
 		</Address>
 	</Hotel>
 	<Hotel Rating="4.3">
-		<Name>Arizona Grand Resort</Name>
-		<Phone>602-438-9000</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Name>Grand Resort</Name>
+		<!-- (3) A Phone element is missing on one of the hotels. -->
+		<Address NearestAirport="O'Hare">
 			<Number>8000</Number>
-			<Street>Arizona Grand Pkwy</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
+			<Street>Grand Pkwy</Street>
+			<City>Chicago</City>
+			<State>IL</State>
 			<Zip>85044</Zip>
 		</Address>
 	</Hotel>
 	<Hotel>
-		<Name>Hotel Valley Ho</Name>
+		<Name>Valley Ho</Name>
 		<Phone>480-248-2000</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="Miami International">
 			<Number>6850</Number>
-			<Street>E Main St</Street>
-			<City>Scottsdale</City>
-			<State>AZ</State>
+			<Street>Main St</Street>
+			<City>Miami</City>
+			<State>FL</State>
 			<Zip>85251</Zip>
-		</Address>
-	</Hotel>
+			<!-- (4) An Address elect has no closing tag. -->
+		</Hotel>
 	<Hotel Rating="4.7">
-		<Name>JW Marriott Scottsdale Camelback Inn</Name>
+		<!-- (5) Two names are provided for one of the hotels. -->
+		<Name>JW Marriott</Name>
+		<Name>JW Marriott Center</Name>
 		<Phone>480-948-1700</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="Seattle-Tacoma">
 			<Number>5402</Number>
-			<Street>E Lincoln Dr</Street>
-			<City>Scottsdale</City>
-			<State>AZ</State>
+			<Street>Lincoln Dr</Street>
+			<City>Seattle</City>
+			<State>WA</State>
 			<Zip>85253</Zip>
 		</Address>
 	</Hotel>
 	<Hotel Rating="4.6">
 		<Name>The Phoenician</Name>
 		<Phone>480-941-8200</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="Denver International">
 			<Number>6000</Number>
-			<Street>E Camelback Rd</Street>
-			<City>Scottsdale</City>
-			<State>AZ</State>
+			<Street>Camelback Rd</Street>
+			<City>Denver</City>
+			<State>CO</State>
 			<Zip>85251</Zip>
 		</Address>
 	</Hotel>
 	<Hotel>
-		<Name>Tempe Mission Palms</Name>
+		<Name>Mission Palms</Name>
 		<Phone>480-894-1400</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="Logan">
 			<Number>60</Number>
-			<Street>E 5th St</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
+			<Street>5th St</Street>
+			<City>Boston</City>
+			<State>MA</State>
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
 	<Hotel Rating="4.0">
-		<Name>Graduate Tempe</Name>
+		<Name>Graduate</Name>
 		<Phone>480-967-9431</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="DFW">
 			<Number>225</Number>
-			<Street>E Apache Blvd</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
+			<Street>Apache Blvd</Street>
+			<City>Dallas</City>
+			<State>TX</State>
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
 	<Hotel Rating="4.4">
-		<Name>Kimpton Hotel Palomar Phoenix</Name>
+		<Name>Kimpton Palomar</Name>
 		<Phone>602-253-6633</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="Hartsfield-Jackson">
 			<Number>2</Number>
-			<Street>E Jefferson St</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
+			<Street>Jefferson St</Street>
+			<City>Atlanta</City>
+			<State>GA</State>
 			<Zip>85004</Zip>
 		</Address>
 	</Hotel>
 	<Hotel>
-		<Name>Found:Re Phoenix Hotel</Name>
+		<Name>Found:Re</Name>
 		<Phone>602-875-8000</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="SFO">
 			<Number>1100</Number>
-			<Street>N Central Ave</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
+			<Street>Central Ave</Street>
+			<City>San Francisco</City>
+			<State>CA</State>
 			<Zip>85004</Zip>
 		</Address>
 	</Hotel>
 	<Hotel Rating="4.3">
-		<Name>Canopy by Hilton Scottsdale</Name>
+		<Name>Canopy Hilton</Name>
 		<Phone>480-590-3864</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Phone>480-590-0000</Phone>
+		<Address NearestAirport="Harry Reid International">
 			<Number>7142</Number>
-			<Street>E 1st St</Street>
-			<City>Scottsdale</City>
-			<State>AZ</State>
+			<Street>1st St</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
 			<Zip>85251</Zip>
 		</Address>
 	</Hotel>
-</Hotel>
+	</Hotels>
