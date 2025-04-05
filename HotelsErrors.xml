@@ -1,375 +1,127 @@
 <?xml version="1.0" ?>
+<!-- 1) The root element name is Hotel instead of Hotels-->
 <Hotel>
-  
-  
-  <Hotel Rating="4.2">
-    
-    
-    <Name>Westin</Name>
-    
-    
-    <Name>Duplicate Name</Name>
-    <Phone>800-937-8461</Phone>
-    
-    
-    <Address>
-      
-      
-      <Number>11</Number>
-      
-      
-      <Street>E.7th St</Street>
-      
-      
-      <City>Tempe</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85281</Zip>
-      
-    
-    
-    
-  
-  </Hotel>
-  
-  
-  <Hotel Rating="4.5">
-    
-    
-    <Name>Hyatt Regency Phoenix</Name>
-    
-    
-    <Phone>602-252-1234</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>122</Number>
-      
-      
-      <Street>N 2nd St</Street>
-      
-      
-      <City>Phoenix</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85004</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel Rating="4.3">
-    
-    
-    <Name>Arizona Grand Resort</Name>
-    
-    
-    <Phone>877-800-4888</Phone>
-    
-    
-    <Phone>602-438-9000</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>8000</Number>
-      
-      
-      <Street>Arizona Grand Pkwy</Street>
-      
-      
-      <City>Phoenix</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85044</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel>
-    
-    
-    <Name>Hotel Valley Ho</Name>
-    
-    
-    <Phone>480-248-2000</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>6850</Number>
-      
-      
-      <Street>E Main St</Street>
-      
-      
-      <City>Scottsdale</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85251</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel Rating="4.7">
-    
-    
-    <Name>JW Marriott Scottsdale Camelback Inn</Name>
-    
-    
-    <Phone>480-948-1700</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>5402</Number>
-      
-      
-      <Street>E Lincoln Dr</Street>
-      
-      
-      <City>Scottsdale</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85253</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel Rating="4.6">
-    
-    
-    <Name>The Phoenician</Name>
-    
-    
-    <Phone>480-941-8200</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>6000</Number>
-      
-      
-      <Street>E Camelback Rd</Street>
-      
-      
-      <City>Scottsdale</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85251</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel>
-    
-    
-    <Name>Tempe Mission Palms</Name>
-    
-    
-    <Phone>480-894-1400</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>60</Number>
-      
-      
-      <Street>E 5th St</Street>
-      
-      
-      <City>Tempe</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85281</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel Rating="4.0">
-    
-    
-    <Name>Graduate Tempe</Name>
-    
-    
-    <Phone>480-967-9431</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>225</Number>
-      
-      
-      <Street>E Apache Blvd</Street>
-      
-      
-      <City>Tempe</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85281</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel Rating="4.4">
-    
-    
-    <Name>Kimpton Hotel Palomar Phoenix</Name>
-    
-    
-    <Phone>602-253-6633</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>2</Number>
-      
-      
-      <Street>E Jefferson St</Street>
-      
-      
-      <City>Phoenix</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85004</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel>
-    
-    
-    <Name>Found:Re Phoenix Hotel</Name>
-    
-    
-    <Phone>602-875-8000</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>1100</Number>
-      
-      
-      <Street>N Central Ave</Street>
-      
-      
-      <City>Phoenix</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85004</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-  
-  <Hotel Rating="4.3">
-    
-    
-    <Name>Canopy by Hilton Scottsdale</Name>
-    
-    
-    <Phone>480-590-3864</Phone>
-    
-    
-    <Phone>480-590-0000</Phone>
-    
-    
-    <Address NearestAirport="Sky Harbor">
-      
-      
-      <Number>7142</Number>
-      
-      
-      <Street>E 1st St</Street>
-      
-      
-      <City>Scottsdale</City>
-      
-      
-      <State>AZ</State>
-      
-      
-      <Zip>85251</Zip>
-      
-    
-    </Address>
-    
-  
-  </Hotel>
-  
-
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<!-- 5) Two names are provided for one of the hotels-->
+		<Name>Westin Duplicate Name</Name>
+		<Phone>800-937-8461</Phone>
+		<!-- 2) A required attribute is missing-->
+		<Address>
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<!-- 4) An Address elect has no closing tag.-->
+	<Hotel Rating="4.5">
+		<Name>Hyatt Regency Phoenix</Name>
+		<!-- 3) A Phone element is missing on one of the hotels-->
+		<Address NearestAirport="Sky Harbor">
+			<Number>122</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.3">
+		<Name>Arizona Grand Resort</Name>
+		<Phone>602-438-9000</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>8000</Number>
+			<Street>Arizona Grand Pkwy</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85044</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Hotel Valley Ho</Name>
+		<Phone>480-248-2000</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>6850</Number>
+			<Street>E Main St</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.7">
+		<Name>JW Marriott Scottsdale Camelback Inn</Name>
+		<Phone>480-948-1700</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>5402</Number>
+			<Street>E Lincoln Dr</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85253</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.6">
+		<Name>The Phoenician</Name>
+		<Phone>480-941-8200</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>6000</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Tempe Mission Palms</Name>
+		<Phone>480-894-1400</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>60</Number>
+			<Street>E 5th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Graduate Tempe</Name>
+		<Phone>480-967-9431</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>225</Number>
+			<Street>E Apache Blvd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.4">
+		<Name>Kimpton Hotel Palomar Phoenix</Name>
+		<Phone>602-253-6633</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2</Number>
+			<Street>E Jefferson St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Found:Re Phoenix Hotel</Name>
+		<Phone>602-875-8000</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>1100</Number>
+			<Street>N Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.3">
+		<Name>Canopy by Hilton Scottsdale</Name>
+		<Phone>480-590-3864</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>7142</Number>
+			<Street>E 1st St</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
 </Hotel>
