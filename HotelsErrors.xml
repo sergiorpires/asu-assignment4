@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!-- (1) The root element name is Hotel, instead of Hotels. -->
-<Hotel xmlns="https://sergiorpires.github.io/asu-assignment4"
+<Hotel  xmlns="https://sergiorpires.github.io/asu-assignment4"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://sergiorpires.github.io/asu-assignment4/Hotels.xsd">
 	<Hotel Rating="4.2">
